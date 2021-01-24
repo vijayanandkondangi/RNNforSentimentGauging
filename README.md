@@ -1,11 +1,14 @@
-# RNNforSentimentGauging
-RNN based on LSTM for sentiment gauging
+# RNN for Sentiment Gauging
 
 This repository is to illustrate the use of LSTM based RNNs for sentiment gauging from text.
 
-Dataset: Tweets in response to the "The Social Dilemma" documentary on Netflix was used for sentiment gauging. Sentiments were classifed in to 3 classes: Positive, Negative and Neutral. Source: https://www.kaggle.com/kaushiksuresh147/the-social-dilemma-tweets/notebooks
+Dataset: 
 
-Approach: GloveVectors were used to arrive at word vectors and word embeddings. They were used in the embedded layer within an LSTM based RNN. Each word in this process was converted to a 50 D vector and a max length of 40 words was taken for the tweets. Shorter tweets were padded to ensure correct dimension for processing by RNN.
+Tweets in response to the "The Social Dilemma" documentary on Netflix was used for sentiment gauging. Sentiments were classifed in to 3 classes: Positive, Negative and Neutral. Source: https://www.kaggle.com/kaushiksuresh147/the-social-dilemma-tweets/notebooks
+
+Approach: 
+
+GloveVectors were used to arrive at word vectors and word embeddings. They were used in the embedded layer within an LSTM based RNN. Each word in this process was converted to a 50 D vector and a max length of 40 words was taken for the tweets. Shorter tweets were padded to ensure correct dimension for processing by RNN.
 
 Conclusion: 
 
