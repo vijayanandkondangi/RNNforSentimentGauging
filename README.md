@@ -16,3 +16,5 @@ Conclusion:
 2. GloveVectors helps better model contextual meaning of words based on their position in the text. 
 3. As word embeddings based on GloveVectors are used, semantic closeness of words can be better detected by this approach.
 4. A similar approach can be used to gauge sentiment from any textual data and classify the purpose/intent in to one of the several classes on which the model is trained.
+
+Glove vectors source URL: https://nlp.stanford.edu/projects/glove/
